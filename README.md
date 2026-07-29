@@ -22,6 +22,9 @@ export class AppModule {}
 
 Controller এর কাজ হলো **incoming HTTP request receive করা এবং response ফেরত পাঠানো**।
 
+<img width="970" height="420" alt="image" src="https://github.com/user-attachments/assets/ce9d77e2-e614-4b63-9b30-65ac55c16815" />
+
+
 - `@Controller()` decorator দিয়ে route path define করা হয়।
 - এর ভেতরে `@Get()`, `@Post()`, `@Put()`, `@Delete()` ইত্যাদি decorator দিয়ে আলাদা আলাদা route handle করা হয়।
 - Controller নিজে কোনো business logic রাখে না — logic এর জন্য এটা Service কে call করে।
